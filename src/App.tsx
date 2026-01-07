@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { Login } from "./Login";
 import { ToggleText } from "./ToggleText";
 import { Saba } from "./Saba";
@@ -7,6 +7,7 @@ import { MirrorInput } from "./MirrorInput";
 import { ToggleButton } from "./ToggleButton";
 import { ParentChild } from "./ParentChild";
 import {ColorChange} from "./ColorChange"; 
+import { ColorMagic } from "./ColorMagic"
 
 // MASTER APP - The "Table of Contents"
 export default function App() {
@@ -43,6 +44,9 @@ export default function App() {
 
       <h3>8. Color Change</h3>
       <ColorChange/>
+
+      <h3>9. Color Magic</h3>
+      <ColorMagic/>
     </main>
   );
 }
